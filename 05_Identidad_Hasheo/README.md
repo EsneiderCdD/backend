@@ -16,6 +16,10 @@ Implementar un sistema de registro donde las contraseñas **NUNCA** se guarden c
 *   **Blueprint de Autenticación (`app/routes/auth.py`)**:
     *   Nueva ruta `/api/auth/register` que usa el modelo inteligente.
     *   Prefijo de URL `/api/auth` definido en el blueprint para mantener orden.
+
+*   **Enfoque Absoluto (`main.py` eliminado)**: 
+    *   A diferencia de capas anteriores, aquí eliminamos la ruta de estado (`/`) para reducir ruido. 
+    *   No estamos validando si "el servidor corre", estamos validando la lógica de usuarios. Menos archivos = Menos carga cognitiva.
     
 ## Comandos Útiles
 
