@@ -1,0 +1,6 @@
+Flask
+python-dotenv
+Flask-SQLAlchemy
+Flask-Migrate
+psycopg2-binary
+# Werkzeug ya viene con Flask, pero se usa explícitamente para seguridad
