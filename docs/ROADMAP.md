@@ -64,6 +64,14 @@ Más allá de que funcione, buscamos que el código sea mantenible, predecible y
 *   Crear un `docker-compose` para levantar App + DB con un solo comando.
 **Justificación**: Estandariza el entorno de ejecución. Hace que tu código sea "Cloud Native".
 
+### Opción E: Capa de Lógica de Configuración y Validaciones
+**Objetivo**: Abstraer configuraciones repetitivas y validaciones complejas en un módulo centralizado.
+**¿Qué haremos?**:
+*   Crear una carpeta `app/utils` o `app/common`.
+*   Implementar decoradores personalizados (ej: `@require_json`) para validar headers.
+*   Centralizar constantes de negocio y configuraciones dinámicas.
+**Justificación**: A medida que el proyecto crece, repetir `if request.headers...` o validaciones de negocio en cada controlador se vuelve insostenible. Esta capa enseña a construir tus propias herramientas internas para mantener el código limpio.
+
 ---
 
 ## Horizontes Expansivos (Nuevas Perspectivas)

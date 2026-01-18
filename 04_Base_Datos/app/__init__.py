@@ -2,6 +2,8 @@ from flask import Flask
 from app.config.config import Config
 from app.extensions import db, migrate
 from app.routes import main
+# Importamos modelos para que Flask-Migrate los detecte
+from app.models.usuario import Usuario
 
 def create_app():
     app = Flask(__name__)
