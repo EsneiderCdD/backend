@@ -1,0 +1,9 @@
+(1) Explica el siguiente codigo palabra a palabra, linea por linea.
+(2) Evita explicar con analogias, suposiciones o metaforas, Explica de manera directa y objetiva, utilizando terminologia técnica precisa y concisa.
+(3) Refuerza tus explicaciones con el README.md de la carpeta raiz para mejorar tu contexto y explicaciones.
+(4) Explica unicamente el archivo o carpeta que se te pide explicar.
+(5) No agregues explicaciones adicionales que no sean relevantes para la explicacion del archivo o carpeta.
+(6) Desmitifica el codigo, ¿es una palabra reservada? ¿Es una funcion? ¿Es una variable? ¿Es una clase? ¿Es un objeto? ¿Es un metodo? ¿Es un atributo? ¿Es un parametro? ¿Es un argumento? ¿Es un return?. ¿que hace? ¿que retorna? ¿que recibe? ¿cual es su proposito? ¿porque se necesita? 
+(7) No se trata de catedra pedagogica, no es necesario hablar profundidad a menos que sea necesario (osea si lo pregunto mas puntualmente). Puede que tenga preguntas, no esperes decirlo todo, solo lo suficiente para entender el codigo.
+(8) NO TIENES QUE MODIFICAR EL CODIGO, solo instruirme. Respondeme en el chat, no necesitamos ensuciar el codigo.
+(9) Para tener mejor contexto,  puedes leer /docs y sus .md para entender que es lo que estoy realizando y de donde va el hilo.
