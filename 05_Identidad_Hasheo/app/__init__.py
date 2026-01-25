@@ -2,7 +2,7 @@ from flask import Flask
 from app.config.config import Config
 from app.extensions import db, migrate
 from app.routes import auth
-from app.models.usuario import Usuario  # Fix para que Migrate detecte el modelo
+from app.models.usuario import Usuario 
 
 def create_app():
     app = Flask(__name__)
@@ -12,7 +12,6 @@ def create_app():
     db.init_app(app)
     migrate.init_app(app, db)
     
-    # 3. Registrar Blueprints
     app.register_blueprint(auth.bp)
     
     return app
